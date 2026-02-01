@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Document</title> 
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <script src="dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="home.html"> 
+    <style>
+         .B1{
+                background-image: url(images/Sprocket1.jpg);
+
+            }
+    </style>
 </head>
-<body>
-    
+<body class="B1">
+
+     <!-- Section One starts here -->
+         <section class="row">
+            <div class="col-lg-12">
+                <!-- Below tag element will hold all the contents of the navbar -->
+                 <nav class="navbar navbar-expand-lg navbar-light " style=" background-color:rgb(157, 5, 5) ;">
+                   <a href="index.html" class="navbar-brand"><img src="images/engineering_42dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="" sizes="5px"><b>Auto Engineering</b></a>
+                    <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                    <a class="navbar-brand"></a>
+                <form class="d-flex" role="search">
+                   <input class="form-control me-2" type="Looking for...?" placeholder="Search"/>
+                   <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </nav>
+
+                   <!-- below is the toggler/harmburger button to either collapse/expand contents depending on the different screen sizes -->
+                    <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarcontents">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div id="navbarcontents" class="navbar-collapse collapse">
+                        <div class="navbar-nav">
+                            <a href="home.html" class="nav-link active"><img src="images/browse_gallery_36dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="" sizes="10px">Explore</a>
+                            <a href="parts.html" class="nav-link active"><img src="images/inbox_customize_34dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="">Spare Parts</a>
+                            <a href="help.html" class="nav-link active"><img src="images/help_34dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="">Help Center</a></a>
+                        </div>
+                    </div>
+                 </nav>
+
+            </div>
+         </section><br>
+        <!-- Section One ends here -->
+
 </body>
 </html>

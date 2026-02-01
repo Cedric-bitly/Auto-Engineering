@@ -1,14 +1,28 @@
 <html>
     <head>
-        <title>Das Auto</title>
+        <title>Auto Engineering</title>
         <link rel="stylesheet" href="dist/css/bootstrap.css">
         <script src="dist/js/bootstrap.js"></script>
         <link rel="stylesheet" href="index.html">
+        <link rel="stylesheet" href="parts.html">
         <style>
             img:hover{
                 transform: scale(1.2);
                 transition: 2s;
             }
+             h4{
+                color: rgb(5, 5, 5);
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                text-transform: uppercase;
+                padding-top: 40px;
+             }
+
+             .B1{
+                background-image: url(images/Sprocket1.jpg);
+
+            }
+               
         </style>
     </head>
     <body>
@@ -17,9 +31,8 @@
          <section class="row">
             <div class="col-lg-12">
                 <!-- Below tag element will hold all the contents of the navbar -->
-                 <nav class="navbar navbar-expand-lg navbar-light bg-info">
-                   <a href="index.html" class="navbar-brand"><b>Auto Engineering</b></a>
-
+                 <nav class="navbar navbar-expand-lg navbar-light " style=" background-color:rgb(157, 5, 5) ;">
+                   <a href="index.html" class="navbar-brand"><img src="images/engineering_42dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="" sizes="5px"><b>Auto Engineering</b></a>
                     <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
                     <a class="navbar-brand"></a>
@@ -37,9 +50,9 @@
 
                     <div id="navbarcontents" class="navbar-collapse collapse">
                         <div class="navbar-nav">
-                            <a href="home.html" class="nav-link active">Explore</a>
-                            <a href="parts.html" class="nav-link active">Spare parts</a>
-                            <a href="help.html" class="nav-link active">Help</a>
+                             <a href="home.html" class="nav-link active"><img src="images/browse_gallery_36dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="" sizes="10px">Explore</a>
+                            <a href="parts.html" class="nav-link active"> <img src="images/inbox_customize_34dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="">Spare parts</a>
+                            <a href="help.html" class="nav-link active"><img src="images/help_34dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="">Help Center</a></a>
                         </div>
                     </div>
                  </nav>
@@ -57,9 +70,9 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/Audi-SQ7.jpg" class="d-block w-100" alt="..." width="45%%" height="88%">
+      <img src="images/Audi-SQ7.jpg" class="d-block w-100" alt="..." width="45%" height="88%">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Power</h5>
+        <h5 class="glowing">Power</h5>
         <p style="color: azure;">Quite the Fine Tuning</p>
       </div>
     </div>
@@ -90,8 +103,8 @@
         <!-- Section Two ends here -->
 
         <!-- Section Three starts here  -->
-         <center><h4>Sport Utility Vehicles(SUVs)</h4></center>
-         <center><h5 class="bg-info">Luxury Every step of the Way</h5></center>
+         <center><h4  style="font-family: Georgia, 'Times New Roman', Times, serif;">Sport Utility Vehicles(SUVs)</h4></center>
+         <center><h5 class="bg-info badge">Luxury Every step of the Way</h5></center>
          <section class="row">
            <div class="col-lg-4 text-center">
                 <!-- below is a div carrying the card  and its contents -->
@@ -106,9 +119,9 @@
                     <img src="images/G-Wagon.jpg" alt="" width="100%" height="250px">
                    </div>
                    <div class="card-footer">
-                    <p>Engine:4.0L twin-turbo V8</p>
-                    <p>All wheel drive</p>
-                    <p>9-speed automatic</p>
+                    <span>Engine:4.0L twin-turbo V8</span>
+                    <span>Engine:4.0L twin-turbo V8</span><br>
+                    <span>9-speed automatic</span><br>
                     <span class=" badge bg-warning">Price:KSHS.15.4M </span>
                     <span class="badge bg-danger">Make YR:2022</span>
                    </div>
@@ -128,9 +141,9 @@
                     <img src="images/Porsche-GALLANA.jpg" alt="" width="100%" height="250px">
                    </div>
                    <div class="card-footer">
-                    <p>Engine:2.5L twin-turbo V8</p>
-                    <p>All wheel drive</p>
-                    <p>6-speed automatic</p>
+                    <span>2.5l Engine twin turbo</span>
+                    <span>All wheel drive</span><br>
+                    <span>6 speed automatic</span><br>
                     <span class=" badge bg-warning">Price:KSHS.9.8M </span>
                     <span class="badge bg-danger">Make YR:2023</span>
                    </div>
@@ -150,9 +163,9 @@
                     <img src="images/AMG-C63.jpg" alt="" width="100%" height="250px">
                    </div>
                    <div class="card-footer">
-                    <p>Engine:4.5L twin-turbo V8</p>
-                    <p>All wheel drive</p>
-                    <p>8-speed automatic</p>
+                    <span>Engine:4.5L twin-turbo V8</span><br>
+                    <span>All wheel drive</span><br>
+                    <span> 8 speed automatic</span><br>
                     <span class=" badge bg-warning">Price:KSHS.16M </span>
                     <span class="badge bg-danger">Make YR:2020</span>
                    </div>
@@ -163,8 +176,8 @@
         <!-- Section Three ends here -->
 
         <!-- Section Four starts here -->
-         <center><h4>SuperBikes (PWBs)</h4></center>
-         <center><h5 class="bg-info">We Handle Extreme Edges</h5></center>
+         <center><h4  style="font-family: Georgia, 'Times New Roman', Times, serif;">SuperBikes (PWBs)</h4></center>
+         <center><h5 class="bg-info  badge">We Handle Extreme Edges</h5></center>
          <section class="row">
             <div class="col-lg-3 text-center">
             <div class="card shadow">
@@ -178,8 +191,8 @@
                     <img src="images/Bike1.jpg" alt="" width="100%" height="250px">
                    </div>
                    <div class="card-footer">
-                    <p>6 Automatic, sub transmission</p>
-                    <p>Customized engine2.0</p>
+                    <span>Automatic sub-tranmission</span><br>
+                    <span>Customised Engine 2.0</span><br>
                     <span class=" badge bg-warning">Price:KSHS 1.6M </span>
                     <span class="badge bg-danger">Make YR:2019</span>
                    </div>
@@ -198,8 +211,9 @@
                     <img src="images/Bike2.jpg" alt="" width="100%" height="250px">
                    </div>
                    <div class="card-footer">
-                    <p>6 Automatic, sub transmission</p>
-                    <p>Customized body</p>
+                   <span></span>
+                   <span> Body lift sustained</span><br>
+                   <span>Automatic sub-transmission</span><br>
                     <span class=" badge bg-warning">Price:KSHS 1.2M </span>
                     <span class="badge bg-danger">Make YR:2020</span>
                    </div>
@@ -218,8 +232,8 @@
                     <img src="images/Bike3.jpg" alt="" width="100%" height="250px">
                    </div>
                    <div class="card-footer">
-                    <p>6 Automatic, sub transmission</p>
-                    <p>Sequential Shifter Pad</p>
+                    <span>6 Automatic, sub transmission</span><br>
+                    <span>Sequential Shifter Pad</span><br>
                     <span class=" badge bg-warning">Price:KSHS 1.2M </span>
                     <span class="badge bg-danger">Make YR:2021</span>
                    </div>
@@ -238,8 +252,8 @@
                     <img src="images/Bike4.jpg" alt="" width="100%" height="250px">
                    </div>
                    <div class="card-footer">
-                    <p>6 Automatic, sub transmission</p>
-                    <p>Automatic shifter</p>
+                    <span>Automatic sub-transmission</span><br>
+                    <span> Smooth Transition</span><br>
                     <span class=" badge bg-warning">Price:KSHS 1.2M </span>
                     <span class="badge bg-danger">Make YR:2022</span>
                    </div>
@@ -250,8 +264,8 @@
         <!-- Section Four ends here -->
 
         <!-- Section Five starts here -->
-        <center> <h4>Supercars (SCs)</h4></center>
-        <center><h5 class="bg-info">Agility meets Supremacy</h5></center>
+        <center> <h4  style="font-family: Georgia, 'Times New Roman', Times, serif;">Supercars (SCs)</h4></center>
+        <center><h5 class="bg-info badge">Agility meets Supremacy</h5></center>
          <section class="row text-center">
             <div class="col-lg-4">
               <div class="card shadow">
@@ -265,10 +279,9 @@
                     <img src="images/McLaren-Mercedes SLR 722 S.jpg" alt="" width="100%" height="250px">
                    </div>
                    <div class="card-footer">
-                    <p>4.2l Engine</p>
-                    <p>V10+ engine</p>
-                    <p>Boiler exhaust Stem</p>
-                    <p></p>
+                    <span>4.2l Engine</span><br>
+                    <span>V10+ engine</span><br>
+                    <span>Boiler exhaust Stem</span><br>
                     <span class=" badge bg-warning">Price:KSHS. 120.6M </span>
                     <span class="badge bg-danger">Make YR:2024</span>
                    </div>
@@ -287,10 +300,9 @@
                     <img src="images/Mercedes-Benz CLK GTR.jpg" alt="" width="100%" height="250px">
                    </div>
                    <div class="card-footer">
-                    <p>4.6l Engine</p>
-                    <p>V12 engine</p>
-                    <p>Aeigss Smart System</p>
-                    <p></p>
+                    <span>4.6l Engine</span><br>
+                    <span>V12 Engine</span><br>
+                    <span>Aeigss Smart System</span><br>
                     <span class=" badge bg-warning">Price:KSHS. 121.7M </span>
                     <span class="badge bg-danger">Make YR:2025</span>
                    </div>
@@ -309,10 +321,9 @@
                     <img src="images/Audi R8 V10+ manual.jpg" alt="" width="100%" height="250px">
                    </div>
                    <div class="card-footer">
-                    <p>4.6l Engine</p>
-                    <p>V12 engine</p>
-                    <p>Custom made Body Build</p>
-                    <p></p>
+                    <span>4.6l Engine</span><br>
+                    <span>V12 Engine</span><br>
+                    <span>Custom made Body Build</span><br>
                     <span class=" badge bg-warning">Price:KSHS. 120.4M </span>
                     <span class="badge bg-danger">Make YR:2023</span>
                    </div>
@@ -338,7 +349,7 @@
                    </div>
                    <div class="card-footer">
                     <span class=" badge bg-warning">Price:KSHS.20k</span>
-                    <p>Compatibility Value</p>
+                    <span>Compatibility Value</span>
                    </div>
                  </div>
             </div>
@@ -375,7 +386,7 @@
                 </div>
 
                 <div class="col-lg-4 text-center">
-                    <h4 style="color:  rgb(39, 23, 3);">Contact Us</h4>
+                    <h4 style="color:  rgb(246, 244, 242);">Leave your Comment or Ideas</h4>
                     <form>
                         <input type="email" placeholder="Enter your email"><br><br>
                     <style>
@@ -392,12 +403,12 @@
                             border-radius: 6px;
                         }
                     </style> 
-                  <input type="submit" value="Send Message" class="btn btn-outline-danger">
+                  <input type="submit" value="Send Feedback" class="btn btn-outline-danger">
                     </form>
                 </div>
 
                 <div class="col-lg-4 text-center">
-                    <h4 class="text-center" style="color: antiquewhite;">Stay Connected</h4> <br>
+                    <h4 class="text-center" style="color: antiquewhite;">Reach Us through:</h4> <br>
                     <a href="https://www.instagram.com"><img src="images/in.png" alt=""></a>
                     <a href="https://www.twitter.com"><img src="images/x.png" alt="" style="background-color: antiquewhite;"></a>
                     <p style="color: antiquewhite;"> Tel+ 0187 5768 0110</p>
